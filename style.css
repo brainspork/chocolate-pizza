@@ -84,7 +84,7 @@ main{
 
 .title h2{
   font:40px 'Oswald', sans-serif;
-  font-weight:bold;
+  font-weight:bolder;
   color:#222;
   line-height:30px;
   margin-top:50px;
@@ -111,4 +111,47 @@ main{
 
 span img{
   width:960px;
+}
+
+main p{
+  font:20px times, serif;
+  color:#666;
+  line-height: 25px;
+  text-indent: 40px;
+  margin:20px 0;
+}
+
+.ingrediants{
+  background-image:url(img/list-bg.png);
+  box-shadow: 0px 7px 7px -1px rgba(0,0,0,0.1);
+  height:295px;
+  margin-bottom:40px;
+}
+
+.ingrediants ul{
+  display:inline-block;
+  float:left;
+  height:225px;
+  width:330px;
+  margin:35px 50px;
+}
+
+.ingrediants li{
+  display:inline-block;
+  font:23px 'Varela Round', sans-serif;
+  color:#666;
+  float:left;
+  margin-top:3px;
+}
+
+.ingrediants input{
+  margin-right:10px;
+}
+
+.ingrediants li span{
+  margin-left:29px;
+}
+
+.ingrediants input:checked{
+  text-decoration:line-through;
 }
