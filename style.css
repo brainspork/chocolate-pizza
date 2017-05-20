@@ -155,3 +155,48 @@ main p{
 .ingrediants input:checked{
   text-decoration:line-through;
 }
+
+.author{
+  display:inline-block;
+  border-top: 15px solid #333;
+  height:140px;
+  width:960px;
+  margin: 0 auto;
+}
+
+.author img{
+  margin:20px 5px 45px 0;
+  float:left;
+}
+
+.info{
+  display:inline-block;
+  float:left;
+  width:600px;
+  height:100px;
+  margin-top:20px;
+  margin-left:15px;
+}
+
+.info h3{
+  font:25px times, serif;
+  color:#222;
+}
+
+.info p{
+  text-indent:0;
+  margin-top:0;
+}
+
+.author button{
+  float:right;
+  margin-top:20px;
+  text-transform:uppercase;
+  font-weight:100;
+  font:20px 'Roboto', sans-serif;
+  font-stretch:ultra-expanded;
+  color:white;
+  background-color:#bc7058;
+  padding:10px 20px;
+  border:none;
+}
