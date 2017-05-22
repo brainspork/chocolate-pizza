@@ -165,7 +165,7 @@ main p{
 }
 
 .author img{
-  margin:20px 5px 45px 0;
+  margin:25px 5px 45px 0;
   float:left;
 }
 
@@ -174,7 +174,7 @@ main p{
   float:left;
   width:600px;
   height:100px;
-  margin-top:20px;
+  margin-top:25px;
   margin-left:15px;
 }
 
@@ -185,18 +185,47 @@ main p{
 
 .info p{
   text-indent:0;
-  margin-top:0;
+  margin-top:10px;
 }
 
 .author button{
   float:right;
-  margin-top:20px;
+  margin-top:30px;
   text-transform:uppercase;
   font-weight:100;
   font:20px 'Roboto', sans-serif;
   font-stretch:ultra-expanded;
   color:white;
   background-color:#bc7058;
-  padding:10px 20px;
+  padding:15px 25px;
   border:none;
+}
+
+footer{
+  width:960px;
+  margin:40px auto;
+}
+
+.accent_line{
+  display:inline-block;
+  position: relative;
+  bottom: 15px;
+  width:450px;
+  height:1px;
+  background-color:#d6d6c2;
+}
+
+.foot_logo img{
+  margin:0 10px;
+}
+
+footer p{
+  text-align:center;
+  font:16px times, serif;
+  color:#999;
+  margin-top:25px;
+}
+
+footer p:last-of-type{
+  margin-top:3px;
 }
